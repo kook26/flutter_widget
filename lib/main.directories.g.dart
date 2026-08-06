@@ -12,6 +12,8 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:flutter_widget/widgets/scaffold.dart'
     as _flutter_widget_widgets_scaffold;
+import 'package:flutter_widget/widgets/text.dart'
+    as _flutter_widget_widgets_text;
 import 'package:widgetbook/widgetbook.dart' as _widgetbook;
 
 final directories = <_widgetbook.WidgetbookNode>[
@@ -24,6 +26,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Scaffold',
             builder: _flutter_widget_widgets_scaffold.scaffoldSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'TextSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'Scaffold',
+            builder: _flutter_widget_widgets_text.textSample,
           ),
         ],
       ),
