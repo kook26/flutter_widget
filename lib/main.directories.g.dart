@@ -18,6 +18,8 @@ import 'package:flutter_widget/widgets/icon.dart'
     as _flutter_widget_widgets_icon;
 import 'package:flutter_widget/widgets/image.dart'
     as _flutter_widget_widgets_image;
+import 'package:flutter_widget/widgets/rich_text.dart'
+    as _flutter_widget_widgets_rich_text;
 import 'package:flutter_widget/widgets/scaffold.dart'
     as _flutter_widget_widgets_scaffold;
 import 'package:flutter_widget/widgets/text.dart'
@@ -61,6 +63,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Image',
             builder: _flutter_widget_widgets_image.imageSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'RichTextSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'RichText',
+            builder: _flutter_widget_widgets_rich_text.richTextSample,
           ),
         ],
       ),
