@@ -12,6 +12,8 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:flutter_widget/widgets/app_bar.dart'
     as _flutter_widget_widgets_app_bar;
+import 'package:flutter_widget/widgets/container.dart'
+    as _flutter_widget_widgets_container;
 import 'package:flutter_widget/widgets/drawer.dart'
     as _flutter_widget_widgets_drawer;
 import 'package:flutter_widget/widgets/icon.dart'
@@ -36,6 +38,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'AppBar',
             builder: _flutter_widget_widgets_app_bar.appBarSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'ContainerSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'Container',
+            builder: _flutter_widget_widgets_container.containerSample,
           ),
         ],
       ),
