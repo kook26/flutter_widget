@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:widgetbook_annotation/widgetbook_annotation.dart' as widgetbook;
 
-@widgetbook.UseCase(name: 'image', type: ImageSample)
+@widgetbook.UseCase(name: 'Image', type: ImageSample)
 ImageSample imageSample(BuildContext context) {
   return const ImageSample();
 }
