@@ -24,6 +24,8 @@ import 'package:flutter_widget/widgets/rich_text.dart'
     as _flutter_widget_widgets_rich_text;
 import 'package:flutter_widget/widgets/scaffold.dart'
     as _flutter_widget_widgets_scaffold;
+import 'package:flutter_widget/widgets/sized_box.dart'
+    as _flutter_widget_widgets_sized_box;
 import 'package:flutter_widget/widgets/text.dart'
     as _flutter_widget_widgets_text;
 import 'package:widgetbook/widgetbook.dart' as _widgetbook;
@@ -92,6 +94,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Scaffold',
             builder: _flutter_widget_widgets_scaffold.scaffoldSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'SizedBoxSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'SizedBox',
+            builder: _flutter_widget_widgets_sized_box.sizedBoxSample,
           ),
         ],
       ),
