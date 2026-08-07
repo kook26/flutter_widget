@@ -28,6 +28,7 @@ import 'package:flutter_widget/widgets/padding.dart'
     as _flutter_widget_widgets_padding;
 import 'package:flutter_widget/widgets/rich_text.dart'
     as _flutter_widget_widgets_rich_text;
+import 'package:flutter_widget/widgets/row.dart' as _flutter_widget_widgets_row;
 import 'package:flutter_widget/widgets/scaffold.dart'
     as _flutter_widget_widgets_scaffold;
 import 'package:flutter_widget/widgets/sized_box.dart'
@@ -118,6 +119,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'RichText',
             builder: _flutter_widget_widgets_rich_text.richTextSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'RowSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'Row',
+            builder: _flutter_widget_widgets_row.rowSample,
           ),
         ],
       ),
