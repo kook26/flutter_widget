@@ -34,6 +34,8 @@ import 'package:flutter_widget/widgets/fitted_box.dart'
     as _flutter_widget_widgets_fitted_box;
 import 'package:flutter_widget/widgets/flexible.dart'
     as _flutter_widget_widgets_flexible;
+import 'package:flutter_widget/widgets/grid_view.dart'
+    as _flutter_widget_widgets_grid_view;
 import 'package:flutter_widget/widgets/icon.dart'
     as _flutter_widget_widgets_icon;
 import 'package:flutter_widget/widgets/image.dart'
@@ -178,6 +180,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Flexible',
             builder: _flutter_widget_widgets_flexible.flexibleSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'GridViewSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'GridView',
+            builder: _flutter_widget_widgets_grid_view.gridViewSample,
           ),
         ],
       ),
