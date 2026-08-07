@@ -28,6 +28,8 @@ import 'package:flutter_widget/widgets/divider.dart'
     as _flutter_widget_widgets_divider;
 import 'package:flutter_widget/widgets/drawer.dart'
     as _flutter_widget_widgets_drawer;
+import 'package:flutter_widget/widgets/elevated_button.dart'
+    as _flutter_widget_widgets_elevated_button;
 import 'package:flutter_widget/widgets/Expanded.dart'
     as _flutter_widget_widgets_Expanded;
 import 'package:flutter_widget/widgets/expansion_tile.dart'
@@ -165,6 +167,16 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Drawer',
             builder: _flutter_widget_widgets_drawer.drawerSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'ElevatedButtonSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'ElevatedButton',
+            builder:
+                _flutter_widget_widgets_elevated_button.elevatedButtonSample,
           ),
         ],
       ),
