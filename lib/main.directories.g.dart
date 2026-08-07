@@ -18,6 +18,8 @@ import 'package:flutter_widget/widgets/aspect_ratio.dart'
     as _flutter_widget_widgets_aspect_ratio;
 import 'package:flutter_widget/widgets/center.dart'
     as _flutter_widget_widgets_center;
+import 'package:flutter_widget/widgets/clip_r_rect.dart'
+    as _flutter_widget_widgets_clip_r_rect;
 import 'package:flutter_widget/widgets/column.dart'
     as _flutter_widget_widgets_column;
 import 'package:flutter_widget/widgets/container.dart'
@@ -86,6 +88,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Center',
             builder: _flutter_widget_widgets_center.centerSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'ClipRRectSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'ClipRRect',
+            builder: _flutter_widget_widgets_clip_r_rect.clipRRectSample,
           ),
         ],
       ),
