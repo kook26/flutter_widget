@@ -32,6 +32,8 @@ import 'package:flutter_widget/widgets/image.dart'
     as _flutter_widget_widgets_image;
 import 'package:flutter_widget/widgets/padding.dart'
     as _flutter_widget_widgets_padding;
+import 'package:flutter_widget/widgets/positioned.dart'
+    as _flutter_widget_widgets_positioned;
 import 'package:flutter_widget/widgets/rich_text.dart'
     as _flutter_widget_widgets_rich_text;
 import 'package:flutter_widget/widgets/row.dart' as _flutter_widget_widgets_row;
@@ -147,6 +149,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Padding',
             builder: _flutter_widget_widgets_padding.paddingSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'PositionedSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'Positioned',
+            builder: _flutter_widget_widgets_positioned.positionedSample,
           ),
         ],
       ),
