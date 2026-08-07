@@ -67,6 +67,8 @@ import 'package:flutter_widget/widgets/stack.dart'
     as _flutter_widget_widgets_stack;
 import 'package:flutter_widget/widgets/table.dart'
     as _flutter_widget_widgets_table;
+import 'package:flutter_widget/widgets/table_bar_view.dart'
+    as _flutter_widget_widgets_table_bar_view;
 import 'package:flutter_widget/widgets/text.dart'
     as _flutter_widget_widgets_text;
 import 'package:flutter_widget/widgets/wrap.dart'
@@ -327,6 +329,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Stack',
             builder: _flutter_widget_widgets_stack.stackSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'TableBarViewSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'TableBarView',
+            builder: _flutter_widget_widgets_table_bar_view.tableBarViewSample,
           ),
         ],
       ),
