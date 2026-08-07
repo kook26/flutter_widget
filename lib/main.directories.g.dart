@@ -75,6 +75,8 @@ import 'package:flutter_widget/widgets/table_bar_view.dart'
     as _flutter_widget_widgets_table_bar_view;
 import 'package:flutter_widget/widgets/text.dart'
     as _flutter_widget_widgets_text;
+import 'package:flutter_widget/widgets/text_field.dart'
+    as _flutter_widget_widgets_text_field;
 import 'package:flutter_widget/widgets/wrap.dart'
     as _flutter_widget_widgets_wrap;
 import 'package:widgetbook/widgetbook.dart' as _widgetbook;
@@ -370,6 +372,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'AppBar',
             builder: _flutter_widget_widgets_table.tableSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'TextFieldSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'TextField',
+            builder: _flutter_widget_widgets_text_field.textFieldSample,
           ),
         ],
       ),
