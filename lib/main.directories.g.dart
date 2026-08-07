@@ -51,6 +51,8 @@ import 'package:flutter_widget/widgets/rich_text.dart'
 import 'package:flutter_widget/widgets/row.dart' as _flutter_widget_widgets_row;
 import 'package:flutter_widget/widgets/scaffold.dart'
     as _flutter_widget_widgets_scaffold;
+import 'package:flutter_widget/widgets/scroll_bar.dart'
+    as _flutter_widget_widgets_scroll_bar;
 import 'package:flutter_widget/widgets/single_child_scroll_view.dart'
     as _flutter_widget_widgets_single_child_scroll_view;
 import 'package:flutter_widget/widgets/sized_box.dart'
@@ -257,6 +259,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Scaffold',
             builder: _flutter_widget_widgets_scaffold.scaffoldSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'ScrollBarSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'ScrollBar',
+            builder: _flutter_widget_widgets_scroll_bar.scrollBarSample,
           ),
         ],
       ),
