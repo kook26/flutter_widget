@@ -18,6 +18,8 @@ import 'package:flutter_widget/widgets/column.dart'
     as _flutter_widget_widgets_column;
 import 'package:flutter_widget/widgets/container.dart'
     as _flutter_widget_widgets_container;
+import 'package:flutter_widget/widgets/divider.dart'
+    as _flutter_widget_widgets_divider;
 import 'package:flutter_widget/widgets/drawer.dart'
     as _flutter_widget_widgets_drawer;
 import 'package:flutter_widget/widgets/icon.dart'
@@ -76,6 +78,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Container',
             builder: _flutter_widget_widgets_container.containerSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'DividerSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'Divider',
+            builder: _flutter_widget_widgets_divider.dividerSample,
           ),
         ],
       ),
