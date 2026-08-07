@@ -30,6 +30,8 @@ import 'package:flutter_widget/widgets/drawer.dart'
     as _flutter_widget_widgets_drawer;
 import 'package:flutter_widget/widgets/Expanded.dart'
     as _flutter_widget_widgets_Expanded;
+import 'package:flutter_widget/widgets/expansion_tile.dart'
+    as _flutter_widget_widgets_expansion_tile;
 import 'package:flutter_widget/widgets/fitted_box.dart'
     as _flutter_widget_widgets_fitted_box;
 import 'package:flutter_widget/widgets/flexible.dart'
@@ -166,6 +168,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Expanded',
             builder: _flutter_widget_widgets_Expanded.expandedSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'ExpansionTileSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'ExpansionTile',
+            builder: _flutter_widget_widgets_expansion_tile.expansionTileSample,
           ),
         ],
       ),
