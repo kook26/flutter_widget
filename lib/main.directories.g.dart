@@ -14,6 +14,8 @@ import 'package:flutter_widget/widgets/app_bar.dart'
     as _flutter_widget_widgets_app_bar;
 import 'package:flutter_widget/widgets/center.dart'
     as _flutter_widget_widgets_center;
+import 'package:flutter_widget/widgets/column.dart'
+    as _flutter_widget_widgets_column;
 import 'package:flutter_widget/widgets/container.dart'
     as _flutter_widget_widgets_container;
 import 'package:flutter_widget/widgets/drawer.dart'
@@ -53,6 +55,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Center',
             builder: _flutter_widget_widgets_center.centerSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'ColumnSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'Column',
+            builder: _flutter_widget_widgets_column.columnSample,
           ),
         ],
       ),
