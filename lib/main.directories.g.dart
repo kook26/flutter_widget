@@ -44,6 +44,8 @@ import 'package:flutter_widget/widgets/grid_view.dart'
     as _flutter_widget_widgets_grid_view;
 import 'package:flutter_widget/widgets/icon.dart'
     as _flutter_widget_widgets_icon;
+import 'package:flutter_widget/widgets/icon_button.dart'
+    as _flutter_widget_widgets_icon_button;
 import 'package:flutter_widget/widgets/image.dart'
     as _flutter_widget_widgets_image;
 import 'package:flutter_widget/widgets/list_tile.dart'
@@ -232,6 +234,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'GridView',
             builder: _flutter_widget_widgets_grid_view.gridViewSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'IconButtonSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'IconButton',
+            builder: _flutter_widget_widgets_icon_button.iconButtonSample,
           ),
         ],
       ),
