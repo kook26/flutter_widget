@@ -57,6 +57,8 @@ import 'package:flutter_widget/widgets/table.dart'
     as _flutter_widget_widgets_table;
 import 'package:flutter_widget/widgets/text.dart'
     as _flutter_widget_widgets_text;
+import 'package:flutter_widget/widgets/wrap.dart'
+    as _flutter_widget_widgets_wrap;
 import 'package:widgetbook/widgetbook.dart' as _widgetbook;
 
 final directories = <_widgetbook.WidgetbookNode>[
@@ -276,6 +278,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Text',
             builder: _flutter_widget_widgets_text.textSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'WrapSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'Wrap',
+            builder: _flutter_widget_widgets_wrap.wrapSample,
           ),
         ],
       ),
