@@ -52,6 +52,8 @@ import 'package:flutter_widget/widgets/page_view.dart'
     as _flutter_widget_widgets_page_view;
 import 'package:flutter_widget/widgets/positioned.dart'
     as _flutter_widget_widgets_positioned;
+import 'package:flutter_widget/widgets/refresh_indicator.dart'
+    as _flutter_widget_widgets_refresh_indicator;
 import 'package:flutter_widget/widgets/rich_text.dart'
     as _flutter_widget_widgets_rich_text;
 import 'package:flutter_widget/widgets/row.dart' as _flutter_widget_widgets_row;
@@ -267,6 +269,16 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Positioned',
             builder: _flutter_widget_widgets_positioned.positionedSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'RefreshIndicatorSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'RefreshIndicator',
+            builder: _flutter_widget_widgets_refresh_indicator
+                .refreshIndicatorSample,
           ),
         ],
       ),
