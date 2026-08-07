@@ -36,6 +36,8 @@ import 'package:flutter_widget/widgets/fitted_box.dart'
     as _flutter_widget_widgets_fitted_box;
 import 'package:flutter_widget/widgets/flexible.dart'
     as _flutter_widget_widgets_flexible;
+import 'package:flutter_widget/widgets/gesture_detector.dart'
+    as _flutter_widget_widgets_gesture_detector;
 import 'package:flutter_widget/widgets/grid_view.dart'
     as _flutter_widget_widgets_grid_view;
 import 'package:flutter_widget/widgets/icon.dart'
@@ -199,6 +201,16 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Flexible',
             builder: _flutter_widget_widgets_flexible.flexibleSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'GestureDetectorSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'GestureDetector',
+            builder:
+                _flutter_widget_widgets_gesture_detector.gestureDetectorSample,
           ),
         ],
       ),
