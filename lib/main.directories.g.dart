@@ -14,6 +14,8 @@ import 'package:flutter_widget/widgets/align.dart'
     as _flutter_widget_widgets_align;
 import 'package:flutter_widget/widgets/app_bar.dart'
     as _flutter_widget_widgets_app_bar;
+import 'package:flutter_widget/widgets/aspect_ratio.dart'
+    as _flutter_widget_widgets_aspect_ratio;
 import 'package:flutter_widget/widgets/center.dart'
     as _flutter_widget_widgets_center;
 import 'package:flutter_widget/widgets/column.dart'
@@ -62,6 +64,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'AppBar',
             builder: _flutter_widget_widgets_app_bar.appBarSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'AspectRatioSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'AspectRatio',
+            builder: _flutter_widget_widgets_aspect_ratio.aspectRatioSample,
           ),
         ],
       ),
