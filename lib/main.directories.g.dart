@@ -10,6 +10,8 @@
 // **************************************************************************
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
+import 'package:flutter_widget/widgets/align.dart'
+    as _flutter_widget_widgets_align;
 import 'package:flutter_widget/widgets/app_bar.dart'
     as _flutter_widget_widgets_app_bar;
 import 'package:flutter_widget/widgets/center.dart'
@@ -45,6 +47,15 @@ final directories = <_widgetbook.WidgetbookNode>[
   _widgetbook.WidgetbookFolder(
     name: 'widgets',
     children: [
+      _widgetbook.WidgetbookComponent(
+        name: 'AlignSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'Align',
+            builder: _flutter_widget_widgets_align.alignSample,
+          ),
+        ],
+      ),
       _widgetbook.WidgetbookComponent(
         name: 'AppBarSample',
         useCases: [
