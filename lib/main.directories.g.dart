@@ -40,6 +40,8 @@ import 'package:flutter_widget/widgets/image.dart'
     as _flutter_widget_widgets_image;
 import 'package:flutter_widget/widgets/list_tile.dart'
     as _flutter_widget_widgets_list_tile;
+import 'package:flutter_widget/widgets/list_view.dart'
+    as _flutter_widget_widgets_list_view;
 import 'package:flutter_widget/widgets/padding.dart'
     as _flutter_widget_widgets_padding;
 import 'package:flutter_widget/widgets/positioned.dart'
@@ -199,6 +201,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'ListTile',
             builder: _flutter_widget_widgets_list_tile.listTileSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'ListViewSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'ListView',
+            builder: _flutter_widget_widgets_list_view.listViewSample,
           ),
         ],
       ),
