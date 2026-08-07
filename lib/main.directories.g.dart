@@ -53,6 +53,8 @@ import 'package:flutter_widget/widgets/spacer.dart'
     as _flutter_widget_widgets_spacer;
 import 'package:flutter_widget/widgets/stack.dart'
     as _flutter_widget_widgets_stack;
+import 'package:flutter_widget/widgets/table.dart'
+    as _flutter_widget_widgets_table;
 import 'package:flutter_widget/widgets/text.dart'
     as _flutter_widget_widgets_text;
 import 'package:widgetbook/widgetbook.dart' as _widgetbook;
@@ -256,6 +258,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Stack',
             builder: _flutter_widget_widgets_stack.stackSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'TableSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'AppBar',
+            builder: _flutter_widget_widgets_table.tableSample,
           ),
         ],
       ),
