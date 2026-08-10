@@ -83,6 +83,8 @@ import 'package:flutter_widget/widgets/single_child_scroll_view.dart'
     as _flutter_widget_widgets_single_child_scroll_view;
 import 'package:flutter_widget/widgets/sized_box.dart'
     as _flutter_widget_widgets_sized_box;
+import 'package:flutter_widget/widgets/slider.dart'
+    as _flutter_widget_widgets_slider;
 import 'package:flutter_widget/widgets/spacer.dart'
     as _flutter_widget_widgets_spacer;
 import 'package:flutter_widget/widgets/stack.dart'
@@ -444,6 +446,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'SizedBox',
             builder: _flutter_widget_widgets_sized_box.sizedBoxSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'SliderSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'Slider',
+            builder: _flutter_widget_widgets_slider.sliderSample,
           ),
         ],
       ),
