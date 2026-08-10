@@ -76,6 +76,8 @@ import 'package:flutter_widget/widgets/popup_menu_button.dart'
     as _flutter_widget_widgets_popup_menu_button;
 import 'package:flutter_widget/widgets/positioned.dart'
     as _flutter_widget_widgets_positioned;
+import 'package:flutter_widget/widgets/progress_indicator.dart'
+    as _flutter_widget_widgets_progress_indicator;
 import 'package:flutter_widget/widgets/radio.dart'
     as _flutter_widget_widgets_radio;
 import 'package:flutter_widget/widgets/refresh_indicator.dart'
@@ -420,6 +422,16 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Positioned',
             builder: _flutter_widget_widgets_positioned.positionedSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'ProgressIndicatorSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'ProgressIndicator',
+            builder: _flutter_widget_widgets_progress_indicator
+                .progressIndicatorSample,
           ),
         ],
       ),
