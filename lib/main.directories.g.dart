@@ -101,6 +101,8 @@ import 'package:flutter_widget/widgets/spacer.dart'
     as _flutter_widget_widgets_spacer;
 import 'package:flutter_widget/widgets/stack.dart'
     as _flutter_widget_widgets_stack;
+import 'package:flutter_widget/widgets/stream_builder.dart'
+    as _flutter_widget_widgets_stream_builder;
 import 'package:flutter_widget/widgets/switch.dart'
     as _flutter_widget_widgets_switch;
 import 'package:flutter_widget/widgets/table.dart'
@@ -544,6 +546,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Stack',
             builder: _flutter_widget_widgets_stack.stackSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'StreamBuilderSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'StreamBuilder',
+            builder: _flutter_widget_widgets_stream_builder.streamBuilderSample,
           ),
         ],
       ),
