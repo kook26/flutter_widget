@@ -50,6 +50,8 @@ import 'package:flutter_widget/widgets/flexible.dart'
     as _flutter_widget_widgets_flexible;
 import 'package:flutter_widget/widgets/floating_action_button.dart'
     as _flutter_widget_widgets_floating_action_button;
+import 'package:flutter_widget/widgets/future_builder.dart'
+    as _flutter_widget_widgets_future_builder;
 import 'package:flutter_widget/widgets/gesture_detector.dart'
     as _flutter_widget_widgets_gesture_detector;
 import 'package:flutter_widget/widgets/grid_view.dart'
@@ -302,6 +304,15 @@ final directories = <_widgetbook.WidgetbookNode>[
             name: 'FloatingActionButton',
             builder: _flutter_widget_widgets_floating_action_button
                 .floatingActionButtonSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'FutureBuilderSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'FutureBuilder',
+            builder: _flutter_widget_widgets_future_builder.futureBuilderSample,
           ),
         ],
       ),
