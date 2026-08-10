@@ -109,6 +109,8 @@ import 'package:flutter_widget/widgets/text_button.dart'
     as _flutter_widget_widgets_text_button;
 import 'package:flutter_widget/widgets/text_field.dart'
     as _flutter_widget_widgets_text_field;
+import 'package:flutter_widget/widgets/visibility.dart'
+    as _flutter_widget_widgets_visibility;
 import 'package:flutter_widget/widgets/wrap.dart'
     as _flutter_widget_widgets_wrap;
 import 'package:widgetbook/widgetbook.dart' as _widgetbook;
@@ -573,6 +575,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Text',
             builder: _flutter_widget_widgets_text.textSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'VisibilitySample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'Visibility',
+            builder: _flutter_widget_widgets_visibility.visibilitySample,
           ),
         ],
       ),
