@@ -22,6 +22,8 @@ import 'package:flutter_widget/widgets/bottom_navigation_bar.dart'
     as _flutter_widget_widgets_bottom_navigation_bar;
 import 'package:flutter_widget/widgets/center.dart'
     as _flutter_widget_widgets_center;
+import 'package:flutter_widget/widgets/checkbox.dart'
+    as _flutter_widget_widgets_checkbox;
 import 'package:flutter_widget/widgets/clip_r_rect.dart'
     as _flutter_widget_widgets_clip_r_rect;
 import 'package:flutter_widget/widgets/column.dart'
@@ -159,6 +161,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Center',
             builder: _flutter_widget_widgets_center.centerSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'CheckboxSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'Checkbox',
+            builder: _flutter_widget_widgets_checkbox.checkboxSample,
           ),
         ],
       ),
