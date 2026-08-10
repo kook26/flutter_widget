@@ -38,6 +38,8 @@ import 'package:flutter_widget/widgets/fitted_box.dart'
     as _flutter_widget_widgets_fitted_box;
 import 'package:flutter_widget/widgets/flexible.dart'
     as _flutter_widget_widgets_flexible;
+import 'package:flutter_widget/widgets/floating_action_button.dart'
+    as _flutter_widget_widgets_floating_action_button;
 import 'package:flutter_widget/widgets/gesture_detector.dart'
     as _flutter_widget_widgets_gesture_detector;
 import 'package:flutter_widget/widgets/grid_view.dart'
@@ -219,6 +221,16 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Flexible',
             builder: _flutter_widget_widgets_flexible.flexibleSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'FloatingActionButtonSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'FloatingActionButton',
+            builder: _flutter_widget_widgets_floating_action_button
+                .floatingActionButtonSample,
           ),
         ],
       ),
