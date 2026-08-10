@@ -14,6 +14,8 @@ import 'package:flutter_widget/widgets/align.dart'
     as _flutter_widget_widgets_align;
 import 'package:flutter_widget/widgets/animated_opacity.dart'
     as _flutter_widget_widgets_animated_opacity;
+import 'package:flutter_widget/widgets/animated_rotation.dart'
+    as _flutter_widget_widgets_animated_rotation;
 import 'package:flutter_widget/widgets/animated_switcher.dart'
     as _flutter_widget_widgets_animated_switcher;
 import 'package:flutter_widget/widgets/app_bar.dart'
@@ -147,6 +149,16 @@ final directories = <_widgetbook.WidgetbookNode>[
             name: 'AnimatedOpacitySample',
             builder:
                 _flutter_widget_widgets_animated_opacity.animatedOpacitySample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'AnimatedRotationSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'AnimatedRotation',
+            builder: _flutter_widget_widgets_animated_rotation
+                .animatedRotationSample,
           ),
         ],
       ),
