@@ -62,6 +62,8 @@ import 'package:flutter_widget/widgets/padding.dart'
     as _flutter_widget_widgets_padding;
 import 'package:flutter_widget/widgets/page_view.dart'
     as _flutter_widget_widgets_page_view;
+import 'package:flutter_widget/widgets/popup_menu_button.dart'
+    as _flutter_widget_widgets_popup_menu_button;
 import 'package:flutter_widget/widgets/positioned.dart'
     as _flutter_widget_widgets_positioned;
 import 'package:flutter_widget/widgets/refresh_indicator.dart'
@@ -335,6 +337,16 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'PageView',
             builder: _flutter_widget_widgets_page_view.pageViewSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'PopupMenuButtonSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'PopupMenuButton',
+            builder:
+                _flutter_widget_widgets_popup_menu_button.popupMenuButtonSample,
           ),
         ],
       ),
