@@ -52,6 +52,8 @@ import 'package:flutter_widget/widgets/list_tile.dart'
     as _flutter_widget_widgets_list_tile;
 import 'package:flutter_widget/widgets/list_view.dart'
     as _flutter_widget_widgets_list_view;
+import 'package:flutter_widget/widgets/outlined_button.dart'
+    as _flutter_widget_widgets_outlined_button;
 import 'package:flutter_widget/widgets/padding.dart'
     as _flutter_widget_widgets_padding;
 import 'package:flutter_widget/widgets/page_view.dart'
@@ -281,6 +283,16 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'ListView',
             builder: _flutter_widget_widgets_list_view.listViewSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'OutlinedButtonSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'OutlinedButton',
+            builder:
+                _flutter_widget_widgets_outlined_button.outlinedButtonSample,
           ),
         ],
       ),
