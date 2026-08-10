@@ -16,6 +16,8 @@ import 'package:flutter_widget/widgets/app_bar.dart'
     as _flutter_widget_widgets_app_bar;
 import 'package:flutter_widget/widgets/aspect_ratio.dart'
     as _flutter_widget_widgets_aspect_ratio;
+import 'package:flutter_widget/widgets/back_button.dart'
+    as _flutter_widget_widgets_back_button;
 import 'package:flutter_widget/widgets/bottom_navigation_bar.dart'
     as _flutter_widget_widgets_bottom_navigation_bar;
 import 'package:flutter_widget/widgets/center.dart'
@@ -127,6 +129,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'AspectRatio',
             builder: _flutter_widget_widgets_aspect_ratio.aspectRatioSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'BackButtonSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'BackButton',
+            builder: _flutter_widget_widgets_back_button.backButtonSample,
           ),
         ],
       ),
