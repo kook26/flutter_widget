@@ -32,6 +32,8 @@ import 'package:flutter_widget/widgets/container.dart'
     as _flutter_widget_widgets_container;
 import 'package:flutter_widget/widgets/divider.dart'
     as _flutter_widget_widgets_divider;
+import 'package:flutter_widget/widgets/draggable.dart'
+    as _flutter_widget_widgets_draggable;
 import 'package:flutter_widget/widgets/drawer.dart'
     as _flutter_widget_widgets_drawer;
 import 'package:flutter_widget/widgets/dropdown_button.dart'
@@ -210,6 +212,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'Divider',
             builder: _flutter_widget_widgets_divider.dividerSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'DraggableSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'Draggable',
+            builder: _flutter_widget_widgets_draggable.draggableSample,
           ),
         ],
       ),
