@@ -56,6 +56,8 @@ import 'package:flutter_widget/widgets/gesture_detector.dart'
     as _flutter_widget_widgets_gesture_detector;
 import 'package:flutter_widget/widgets/grid_view.dart'
     as _flutter_widget_widgets_grid_view;
+import 'package:flutter_widget/widgets/hero.dart'
+    as _flutter_widget_widgets_hero;
 import 'package:flutter_widget/widgets/icon.dart'
     as _flutter_widget_widgets_icon;
 import 'package:flutter_widget/widgets/icon_button.dart'
@@ -334,6 +336,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'GridView',
             builder: _flutter_widget_widgets_grid_view.gridViewSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'HeroSample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'Hero',
+            builder: _flutter_widget_widgets_hero.heroSample,
           ),
         ],
       ),

@@ -14,6 +14,8 @@ class WidgetBookApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Heroコードの処理を見るためのコード
+    // return MaterialApp(home: HeroSample());
     return Widgetbook.material(
       directories: directories,
       addons: [
