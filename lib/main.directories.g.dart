@@ -64,6 +64,8 @@ import 'package:flutter_widget/widgets/list_tile.dart'
     as _flutter_widget_widgets_list_tile;
 import 'package:flutter_widget/widgets/list_view.dart'
     as _flutter_widget_widgets_list_view;
+import 'package:flutter_widget/widgets/opacity.dart'
+    as _flutter_widget_widgets_opacity;
 import 'package:flutter_widget/widgets/outlined_button.dart'
     as _flutter_widget_widgets_outlined_button;
 import 'package:flutter_widget/widgets/padding.dart'
@@ -360,6 +362,15 @@ final directories = <_widgetbook.WidgetbookNode>[
           _widgetbook.WidgetbookUseCase(
             name: 'ListView',
             builder: _flutter_widget_widgets_list_view.listViewSample,
+          ),
+        ],
+      ),
+      _widgetbook.WidgetbookComponent(
+        name: 'OpacitySample',
+        useCases: [
+          _widgetbook.WidgetbookUseCase(
+            name: 'Opacity',
+            builder: _flutter_widget_widgets_opacity.opacitySample,
           ),
         ],
       ),
